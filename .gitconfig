@@ -1,0 +1,13 @@
+[user]
+	name = Cynchronized
+	email = austin.thieu123@gmail.com
+[init]
+	defaultbranch = main
+[credential "https://github.com"]
+	helper = 
+	helper = !/home/cync/.local/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/home/cync/.local/bin/gh auth git-credential
+[pull]
+	rebase = true
